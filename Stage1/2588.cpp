@@ -10,14 +10,12 @@
 #include <iostream>
 
 int main() {
-    int a, b, c;
-    std::cin >> a;
-    std::cin >> b;
+    int a, b;
 
-    int quotient, remainder = 0;
-    quotient = a / 10
-    std::cout << a % 10 << std::endl;
+    std::cin >> a >> b;
 
-
-    return 0;
+    std::cout << a * (b % 10) << std::endl;
+    std::cout << a * ((b / 10) % 10) << std::endl;
+    std::cout << a * (b / 100) << std::endl;
+    std::cout << a * b << std::endl;
 }

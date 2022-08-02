@@ -16,7 +16,7 @@ add_executable(10171 10171.cpp)
 add_executable(10172 10172.cpp)
 
 # 1000 A + B / Bronze 5
-add_executable(1000 1000.cpp 18018.cpp 10430.cpp 2588.cpp)
+add_executable(1000 1000.cpp)
 
 # 1001 A - B / Bronze 5
 add_executable(1001 1001.cpp)
@@ -41,3 +41,6 @@ add_executable(10430 10430.cpp)
 
 # 2588 곱셈 / Bronze 3
 add_executable(2588 2588.cpp)
+
+#25083 새싹 / Bronze 5
+add_executable(25083 25083.cpp)
