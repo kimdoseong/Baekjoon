@@ -3,8 +3,5 @@ project(Baekjoon)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_subdirectory(Stage1)
-
-add_subdirectory(Stage2)
-
-add_subdirectory(Stage3)
+# 2739 구구단 / Bronze 5
+add_executable(2739 2739.cpp)
