@@ -14,8 +14,8 @@ int main() {
 
     std::cin >> years;
 
-    if(years % 4 == 0){
-        if(years % 100 != 0 || years % 400 == 0) {
+    if (years % 4 == 0) {
+        if (years % 100 != 0 || years % 400 == 0) {
             std::cout << 1;
             return 0;
         }

@@ -13,4 +13,12 @@ int main() {
     int x, y = 0;
 
     std::cin >> x >> y;
+
+    if (x > 0) {
+        (y > 0) ? std::cout << 1 : std::cout << 4;
+    } else {
+        (y > 0) ? std::cout << 2 : std::cout << 3;
+    }
+
+    return 0;
 }
