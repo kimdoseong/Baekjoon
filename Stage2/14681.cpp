@@ -10,7 +10,7 @@
 #include <iostream>
 
 int main() {
-    int x, y = 0;
+    int x, y;
 
     std::cin >> x >> y;
 

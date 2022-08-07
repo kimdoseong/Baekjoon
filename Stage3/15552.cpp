@@ -14,7 +14,7 @@ int main() {
     std::cin.tie(nullptr);
 
     int n;
-    int a, b = 0;
+    int a, b;
 
     std::cin >> n;
 
