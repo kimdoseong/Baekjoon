@@ -17,7 +17,7 @@ int main() {
     std::cin >> t;
 
     m += t;
-    std::cout << ((m / 60) + h) % 24<< " " << m % 60;
+    std::cout << ((m / 60) + h) % 24 << " " << m % 60;
 
     return 0;
 }

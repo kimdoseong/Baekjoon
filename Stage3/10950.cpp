@@ -3,7 +3,7 @@
 //
 
 /**
- * Baekjoon #2739 - 구구단
+ * Baekjoon #10950 - A + B - 3
  * Bronze 5
  */
 
@@ -11,10 +11,13 @@
 
 int main() {
     int n;
+    int a, b = 0;
+
     std::cin >> n;
 
-    for (int i = 1; i < 10; i++) {
-        std::cout << n << " * " << i << " = " << n * i << std::endl;
+    for (int i = 0; i < n; i++) {
+        std::cin >> a >> b;
+        std::cout << a + b << std::endl;
     }
 
     return 0;
