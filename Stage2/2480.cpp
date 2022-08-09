@@ -11,7 +11,7 @@
 #include <algorithm>
 
 int main() {
-    int a, b, c, reword ;
+    int a, b, c, reword;
     std::cin >> a >> b >> c;
 
     if (a == b && b == c) {

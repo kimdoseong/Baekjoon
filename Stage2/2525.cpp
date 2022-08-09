@@ -10,7 +10,7 @@
 #include <iostream>
 
 int main() {
-    int h, m ;
+    int h, m;
     std::cin >> h >> m;
 
     int t = 0;

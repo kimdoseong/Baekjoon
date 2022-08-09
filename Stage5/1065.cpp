@@ -10,8 +10,8 @@
 #include <iostream>
 #include <array>
 
-int Han(int n){
-    if(n < 100)
+int Han(int n) {
+    if (n < 100)
         return n;
 
     int count = 0;

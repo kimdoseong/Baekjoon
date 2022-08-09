@@ -11,7 +11,7 @@
 
 long long sum(std::vector<int> &a) {
     long long ans = 0;
-    for (const auto& n: a) {
+    for (const auto &n: a) {
         ans += n;
     }
     return ans;
