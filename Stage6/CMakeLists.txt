@@ -17,3 +17,12 @@ add_executable(2675 2675.cpp)
 
 # 1157 단어 공부 / Bronze 1
 add_executable(1157 1157.cpp)
+
+# 1152 단어의 개수 / Bronze 2
+add_executable(1152 1152.cpp)
+
+# 2908 상수 / Bronze 2
+add_executable(2908 2908.cpp)
+
+# 5622 다이얼 / Bronze 2
+add_executable(5622 5622.cpp)
