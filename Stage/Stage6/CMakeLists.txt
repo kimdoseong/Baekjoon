@@ -26,3 +26,9 @@ add_executable(2908 2908.cpp)
 
 # 5622 다이얼 / Bronze 2
 add_executable(5622 5622.cpp)
+
+# 2941 크로아티아 알파벳 / Silver 5
+add_executable(2941 2941.cpp)
+
+# 1316 그룹 단어 체커 / Silver 5
+add_executable(1316 1316.cpp)
