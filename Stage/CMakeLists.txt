@@ -14,3 +14,5 @@ add_subdirectory(Stage4)
 add_subdirectory(Stage5)
 
 add_subdirectory(Stage6)
+
+add_subdirectory(Stage7)
