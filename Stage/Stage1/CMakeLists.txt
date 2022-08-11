@@ -1,4 +1,6 @@
 cmake_minimum_required(VERSION VERSION 3.17)
+
+# 입출력과 사칙연산
 project(Stage1)
 
 set(CMAKE_CXX_STANDARD 17)

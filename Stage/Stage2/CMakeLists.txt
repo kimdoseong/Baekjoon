@@ -1,4 +1,6 @@
 cmake_minimum_required(VERSION VERSION 3.17)
+
+# 조건문
 project(Stage2)
 
 set(CMAKE_CXX_STANDARD 17)
