@@ -14,6 +14,9 @@ add_executable(10950 10950.cpp)
 # 8393 합 / Bronze 5
 add_executable(8393 8393.cpp)
 
+# 25304 영수증 / Bronze 5
+add_executable(25304 25304.cpp)
+
 # 15552 빠른 A + B / Bronze 4
 add_executable(15552 15552.cpp)
 

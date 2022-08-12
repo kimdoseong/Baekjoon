@@ -38,6 +38,9 @@ add_executable(10926 10926.cpp)
 # 18018 1998년생인 내가 태국에서는 2541년생?! / Bronze 5
 add_executable(18018 18018.cpp)
 
+#3003 킹, 퀸, 룩, 비숍, 나이트, 폰 / Bronze 5
+add_executable(3003 3003.cpp)
+
 # 10430 나머지 / Bronze 5
 add_executable(10430 10430.cpp)
 
