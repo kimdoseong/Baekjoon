@@ -23,3 +23,6 @@ add_subdirectory(Stage6)
 
 # 기본 수학 1
 add_subdirectory(Stage7)
+
+# 기본 수학 2
+add_subdirectory(Stage8)
