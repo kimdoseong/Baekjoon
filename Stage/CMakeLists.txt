@@ -26,3 +26,6 @@ add_subdirectory(Stage7)
 
 # 기본 수학 2
 add_subdirectory(Stage8)
+
+# 재귀
+add_subdirectory(Stage9)
