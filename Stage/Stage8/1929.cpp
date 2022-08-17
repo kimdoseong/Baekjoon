@@ -1,10 +1,10 @@
 //
-// Created by kimdoseong on 2022/08/16.
+// Created by kimdoseong on 2022/08/17.
 //
 
 /**
- * Baekjoon #1978 - 소수찾기
- * Silver 5
+ * Baekjoon #1929 - 소수 구하기
+ * Silver 3
  */
 
 #include <iostream>
@@ -31,18 +31,14 @@ int main() {
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(nullptr);
 
-    int n;
-    std::cin >> n;
+    int m, n;
+    std::cin >> m >> n;
 
-    int cnt = 0;
-    for (int i = 0; i < n; i++) {
-        int num;
-        std::cin >> num;
-
-        if (is_prime(num))
-            cnt++;
+    for (int i = m; i <= n; i++) {
+        if (is_prime(i)) {
+            std::cout << i << "\n";
+        }
     }
 
-    std::cout << cnt;
     return 0;
 }

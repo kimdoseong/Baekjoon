@@ -18,7 +18,7 @@ int main() {
 
     int sum = 1;
     int count = 1;
-    while(sum < n){
+    while (sum < n) {
         sum += (6 * count);
         count++;
     }

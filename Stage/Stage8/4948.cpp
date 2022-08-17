@@ -1,10 +1,10 @@
 //
-// Created by kimdoseong on 2022/08/16.
+// Created by kimdoseong on 2022/08/17.
 //
 
 /**
- * Baekjoon #1978 - 소수찾기
- * Silver 5
+ * Baekjoon #4948 - 베르트랑 공준
+ * Silver 3
  */
 
 #include <iostream>
@@ -31,18 +31,20 @@ int main() {
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(nullptr);
 
-    int n;
-    std::cin >> n;
+    while (true) {
+        int n;
+        std::cin >> n;
 
-    int cnt = 0;
-    for (int i = 0; i < n; i++) {
-        int num;
-        std::cin >> num;
+        if (n == 0)
+            break;
 
-        if (is_prime(num))
-            cnt++;
+        int cnt = 0;
+
+        for (int i = n + 1; i <= (2 * n); i++) {
+            if (is_prime(i))
+                cnt++;
+        }
+
+        std::cout << cnt << "\n";
     }
-
-    std::cout << cnt;
-    return 0;
 }

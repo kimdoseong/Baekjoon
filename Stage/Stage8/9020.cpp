@@ -1,10 +1,10 @@
 //
-// Created by kimdoseong on 2022/08/16.
+// Created by kimdoseong on 2022/08/17.
 //
 
 /**
- * Baekjoon #1978 - 소수찾기
- * Silver 5
+ * Baekjoon #9020 - 골드바흐의 추측
+ * Silver 2
  */
 
 #include <iostream>
@@ -31,18 +31,20 @@ int main() {
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(nullptr);
 
-    int n;
-    std::cin >> n;
+    int t;
+    std::cin >> t;
 
-    int cnt = 0;
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < t; i++) {
         int num;
         std::cin >> num;
 
-        if (is_prime(num))
-            cnt++;
+        for (int j = num / 2; j >= 2; j--) {
+            if (is_prime(j) && is_prime(num - j)) {
+                std::cout << j << " " << num - j << '\n';
+                break;
+            }
+        }
     }
 
-    std::cout << cnt;
     return 0;
 }

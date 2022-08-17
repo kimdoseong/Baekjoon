@@ -32,7 +32,7 @@ int main() {
     b = zero + b;
     int carry = 0;
     for (int i = static_cast<int>(a.length()) - 1; i >= 0; i--) {
-        auto sum = a[i] - '0' + b[i] - '0'  + carry;
+        auto sum = a[i] - '0' + b[i] - '0' + carry;
         result.emplace_back(sum % 10);
 
         if (sum > 9) {
