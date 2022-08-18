@@ -15,4 +15,7 @@ add_executable(10870 10870.cpp)
 add_executable(17478 17478.cpp)
 
 # 2477 별 찍기 - 10 / Gold 5
-add_executable(2477 2447.cpp)
+add_executable(2447 2447.cpp)
+
+# 11729 하노이 탑 이동 순서 / Silver 1
+add_executable(11729 11729.cpp)

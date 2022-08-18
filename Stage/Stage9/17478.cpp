@@ -1,5 +1,5 @@
 //
-// Created by doseong on 2022-08-18.
+// Created by kimdoseong on 2022-08-18.
 //
 
 /**
@@ -9,9 +9,9 @@
 
 #include <iostream>
 
-void recursion(int loop, const std::string& underBar) {
+void recursion(int loop, const std::string &underBar) {
     std::cout << underBar << "\"재귀함수가 뭔가요?\"" << "\n";
-    if(loop <= 0){
+    if (loop <= 0) {
         std::cout << underBar << "\"재귀함수는 자기 자신을 호출하는 함수라네\"" << "\n";
         std::cout << underBar << "라고 답변하였지." << "\n";
         return;
