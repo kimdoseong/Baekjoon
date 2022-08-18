@@ -29,3 +29,6 @@ add_subdirectory(Stage8)
 
 # 재귀
 add_subdirectory(Stage9)
+
+#브루스 포스
+add_subdirectory(Stage10)
