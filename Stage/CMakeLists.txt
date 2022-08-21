@@ -1,34 +1,10 @@
 cmake_minimum_required(VERSION 3.17)
-project(Stage)
+project(Baekjoon)
 
 set(CMAKE_CXX_STANDARD 17)
 
-# 입출력과 사칙연산
-add_subdirectory(Stage1)
+# Stage 1 ~ 9
+add_subdirectory(Stage1-9)
 
-# 조건문
-add_subdirectory(Stage2)
-
-# 반복문
-add_subdirectory(Stage3)
-
-# 1차원 배열
-add_subdirectory(Stage4)
-
-# 함수
-add_subdirectory(Stage5)
-
-# 문자열
-add_subdirectory(Stage6)
-
-# 기본 수학 1
-add_subdirectory(Stage7)
-
-# 기본 수학 2
-add_subdirectory(Stage8)
-
-# 재귀
-add_subdirectory(Stage9)
-
-#브루스 포스
-add_subdirectory(Stage10)
+# Stage 10 ~ 19
+add_subdirectory(Stage10-19)

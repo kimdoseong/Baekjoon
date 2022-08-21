@@ -38,7 +38,7 @@ add_executable(2438 2438.cpp)
 # 2439 별 찍기 - 2 / Bronze 4
 add_executable(2439 2439.cpp)
 
-# X보다 작은 수 / Bronze 5
+# 10871 X보다 작은 수 / Bronze 5
 add_executable(10871 10871.cpp)
 
 # A + B - 5 / Bronze 5
