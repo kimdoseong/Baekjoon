@@ -16,3 +16,9 @@ add_executable(10989 10989.cpp)
 
 # 25305 커트라인 / Bronze 2
 add_executable(25305 25305.cpp)
+
+# 2108 통계학 / Silver 3
+add_executable(2108 2108.cpp)
+
+# 1427 소트인사이드 / Silver 5
+add_executable(1427 1427.cpp)
