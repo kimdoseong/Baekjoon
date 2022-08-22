@@ -22,3 +22,9 @@ add_executable(2108 2108.cpp)
 
 # 1427 소트인사이드 / Silver 5
 add_executable(1427 1427.cpp)
+
+# 11650 좌표 정렬하기 / Silver 5
+add_executable(11650 11650.cpp)
+
+# 11651 좌표 정렬하기 2 / Silver 5
+add_executable(11651 11651.cpp)
