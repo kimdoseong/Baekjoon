@@ -28,3 +28,9 @@ add_executable(11650 11650.cpp)
 
 # 11651 좌표 정렬하기 2 / Silver 5
 add_executable(11651 11651.cpp)
+
+# 1181 단어 정렬 / Silver 5
+add_executable(1181 1181.cpp)
+
+# 10814 나이순 정렬 / Silver 5
+add_executable(10814 10814.cpp)

@@ -17,13 +17,13 @@ int main() {
 
     std::vector<int> array;
 
-    while(n > 0){
+    while (n > 0) {
         array.emplace_back(n % 10);
         n /= 10;
     }
 
     std::sort(array.begin(), array.end(), std::greater<>());
-    std::for_each(array.begin(), array.end(), [](int n){
+    std::for_each(array.begin(), array.end(), [](int n) {
         std::cout << n;
     });
 

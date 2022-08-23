@@ -16,15 +16,15 @@ int main() {
     int n;
     std::cin >> n;
 
-    int array[10001] = {0, };
+    int array[10001] = {0,};
     int input;
-    for(auto i = 0; i < n; i++){
+    for (auto i = 0; i < n; i++) {
         std::cin >> input;
         array[input]++;
     }
 
-    for(auto i = 1; i < 10001; i++){
-        while(array[i]-- != 0){
+    for (auto i = 1; i < 10001; i++) {
+        while (array[i]-- != 0) {
             std::cout << i << "\n";
         }
     }

@@ -19,7 +19,7 @@ int main() {
     std::cin >> n >> k;
     std::vector<int> score(n);
 
-    for(int i = 0; i < n; i++){
+    for (int i = 0; i < n; i++) {
         std::cin >> score[i];
     }
 

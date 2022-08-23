@@ -16,13 +16,13 @@ int main() {
     std::cin >> n;
 
     std::vector<int> num(n);
-    for(int i = 0; i < n; i++){
+    for (int i = 0; i < n; i++) {
         std::cin >> num[i];
     }
 
     std::sort(num.begin(), num.end());
 
-    for(const auto& number : num){
+    for (const auto &number: num) {
         std::cout << number << "\n";
     }
 

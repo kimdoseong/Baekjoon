@@ -16,7 +16,7 @@ int main() {
     int total, n;
     std::cin >> total >> n;
 
-    for(int i = 0; i < n; i++){
+    for (int i = 0; i < n; i++) {
         int price, cnt;
         std::cin >> price >> cnt;
 
