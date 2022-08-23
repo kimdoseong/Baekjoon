@@ -10,3 +10,6 @@ add_subdirectory(Stage10)
 
 # 정렬
 add_subdirectory(Stage11)
+
+# 집합과 맵
+add_subdirectory(Stage12)
