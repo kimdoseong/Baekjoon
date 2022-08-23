@@ -34,3 +34,6 @@ add_executable(1181 1181.cpp)
 
 # 10814 나이순 정렬 / Silver 5
 add_executable(10814 10814.cpp)
+
+# 18870 좌표 압축 / Silver 2
+add_executable(18870 18870.cpp)
