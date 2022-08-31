@@ -19,3 +19,6 @@ add_executable(2477 2477.cpp)
 
 # 3053 택시 기하학 / Bronze 3
 add_executable(3053 3053.cpp)
+
+# 1002 터렛 / Silver 3
+add_executable(1002 1002.cpp)
