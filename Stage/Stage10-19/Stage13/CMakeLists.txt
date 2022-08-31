@@ -22,3 +22,6 @@ add_executable(3053 3053.cpp)
 
 # 1002 터렛 / Silver 3
 add_executable(1002 1002.cpp)
+
+# 1358 하키 Silver 4
+add_executable(1358 1358.cpp)
