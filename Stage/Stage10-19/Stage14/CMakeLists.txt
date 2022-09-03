@@ -13,3 +13,6 @@ add_executable(1037 1037.cpp)
 
 # 2609 최대공약수와 최소공배수 / Bronze 1
 add_executable(2609 2609.cpp)
+
+# 1934 최소공배수 / Bronze 1
+add_executable(1934 1934.cpp)
