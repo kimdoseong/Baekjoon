@@ -20,5 +20,23 @@ add_executable(1934 1934.cpp)
 # 2981 검문 / Gold 4
 add_executable(2981 2981.cpp)
 
+# 3036 링 / 링 4
+add_executable(3036 3036.cpp)
+
 # 11050 이항 계수 / Bronze 1
 add_executable(11050 11050.cpp)
+
+# 11051 이항 계수 2 / Silver 3
+add_executable(11051 11051.cpp)
+
+# 1010 다리 놓기 / Silver 5
+add_executable(1010 1010.cpp)
+
+# 9375 패션왕 신혜빈 / Silver 3
+add_executable(9375 9375.cpp)
+
+# 1676 팩토리얼 0의 개수 / Silver 5
+add_executable(1676 1676.cpp)
+
+# 2004 조합 0의 개수 / Silver 2
+add_executable(2004 2004.cpp)
