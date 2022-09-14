@@ -10,6 +10,17 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello World" << std::endl;
-    return 0;
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+
+    int n, count = 0;
+    std::cin >> n;
+
+    for (int i = 2; i <= n; i++) {
+        if (i % 5 == 0) count++;
+        if (i % 25 == 0) count++;
+        if (i % 125 == 0) count++;
+    }
+
+    std::cout << count;
 }
