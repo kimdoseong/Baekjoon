@@ -19,3 +19,6 @@ add_subdirectory(Stage13)
 
 # 정수론 및 조합론
 add_subdirectory(Stage14)
+
+# 백트레킹
+add_subdirectory(Stage15)
