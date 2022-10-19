@@ -3,7 +3,7 @@
 //
 
 /**
- * Baekjoon #15649 - N과 M(1)
+ * Baekjoon #15651 - N과 M(3)
  * Silver 3
  */
 
@@ -12,7 +12,7 @@
 
 int n, m;
 std::array<int, 8> arr{0,};
-std::array<bool, 8> visited = {false,};
+std::array<bool, 8> visited{false,};
 
 void DFS(int pos) {
     if (pos == m) {
@@ -20,15 +20,14 @@ void DFS(int pos) {
             std::cout << arr[i] << " ";
         }
         std::cout << '\n';
+        return;
     }
 
     for (int i = 0; i < n; i++) {
-        if (!visited[i]) {
-            visited[i] = true;
-            arr[pos] = i + 1;
-            DFS(pos + 1);
-            visited[i] = false;
-        }
+        visited[i] = true;
+        arr[pos] = i + 1;
+        DFS(pos + 1);
+        visited[i] = false;
     }
 }
 

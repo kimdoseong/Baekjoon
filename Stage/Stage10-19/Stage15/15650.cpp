@@ -3,7 +3,7 @@
 //
 
 /**
- * Baekjoon #15649 - N과 M(1)
+ * Baekjoon #15650 - N과 M(2)
  * Silver 3
  */
 
@@ -14,19 +14,19 @@ int n, m;
 std::array<int, 8> arr{0,};
 std::array<bool, 8> visited = {false,};
 
-void DFS(int pos) {
-    if (pos == m) {
+void DFS(int pos, int cnt) {
+    if (m == cnt) {
         for (int i = 0; i < m; i++) {
             std::cout << arr[i] << " ";
         }
         std::cout << '\n';
     }
 
-    for (int i = 0; i < n; i++) {
+    for (int i = pos; i <= n; i++) {
         if (!visited[i]) {
             visited[i] = true;
-            arr[pos] = i + 1;
-            DFS(pos + 1);
+            arr[cnt] = i;
+            DFS(i + 1, cnt + 1);
             visited[i] = false;
         }
     }
@@ -37,6 +37,6 @@ int main() {
     std::cin.tie(nullptr);
 
     std::cin >> n >> m;
-    DFS(0);
+    DFS(1, 0);
     return 0;
 }
