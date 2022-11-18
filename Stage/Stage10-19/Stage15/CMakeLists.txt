@@ -19,3 +19,6 @@ add_executable(15652 15652.cpp)
 
 # 9663 N-Queen / Gold 4
 add_executable(9663 9663.cpp)
+
+# 2580 스도쿠 / Gold 4
+add_executable(2580 2580.cpp)

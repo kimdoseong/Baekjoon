@@ -9,7 +9,6 @@
 
 // X-A = Y-B
 
-
 #include <iostream>
 #include <array>
 
