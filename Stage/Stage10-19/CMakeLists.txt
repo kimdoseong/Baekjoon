@@ -20,5 +20,8 @@ add_subdirectory(Stage13)
 # 정수론 및 조합론
 add_subdirectory(Stage14)
 
-# 백트레킹
+# 백트래킹
 add_subdirectory(Stage15)
+
+# 동적 계획법 1
+add_subdirectory(Stage16)
