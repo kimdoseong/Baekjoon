@@ -22,3 +22,6 @@ add_executable(9663 9663.cpp)
 
 # 2580 스도쿠 / Gold 4
 add_executable(2580 2580.cpp)
+
+# 14888 연산자 끼워넣기 / Silver 1
+add_executable(14888 14888.cpp)
