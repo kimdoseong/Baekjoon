@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.17)
 
-# 정수론 및 조합론
+# 백트래킹
 project(Stage15)
 
 set(CMAKE_CXX_STANDARD 17)
