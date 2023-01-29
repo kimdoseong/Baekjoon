@@ -8,3 +8,9 @@ add_executable(24416 24416.cpp)
 
 # 9184 신나는 함수 실행 / Silver 2
 add_executable(9184 9184.cpp)
+
+# 1904 01타일 / Silver 3
+add_executable(1904 1904.cpp)
+
+# 9461 파도반 수열 / Silver 3
+add_executable(9461 9461.cpp)
