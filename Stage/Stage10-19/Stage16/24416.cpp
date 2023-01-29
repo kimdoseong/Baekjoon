@@ -11,6 +11,7 @@
 #include <array>
 
 std::array<int, 100> f{};
+
 int recursive(int n, int *count) {
     if (n == 1 || n == 2) {
         (*count)++;

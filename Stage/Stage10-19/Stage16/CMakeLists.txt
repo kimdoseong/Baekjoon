@@ -14,3 +14,7 @@ add_executable(1904 1904.cpp)
 
 # 9461 파도반 수열 / Silver 3
 add_executable(9461 9461.cpp)
+
+# 1912 연속합 / Silver 2
+add_executable(1912 1912.cpp)
+
