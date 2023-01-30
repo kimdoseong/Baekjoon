@@ -18,3 +18,5 @@ add_executable(9461 9461.cpp)
 # 1912 연속합 / Silver 2
 add_executable(1912 1912.cpp)
 
+# 1149 RGB 거리 / Silver 1
+add_executable(1149 1149.cpp)
