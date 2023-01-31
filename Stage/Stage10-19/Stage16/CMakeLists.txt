@@ -20,3 +20,6 @@ add_executable(1912 1912.cpp)
 
 # 1149 RGB 거리 / Silver 1
 add_executable(1149 1149.cpp)
+
+# 1932 정수 삼각형 / Silver 1
+add_executable(1932 1932.cpp)

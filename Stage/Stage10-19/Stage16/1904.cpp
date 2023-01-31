@@ -13,7 +13,6 @@
 #define mod 15746
 
 int main() {
-
     int n;
     std::cin >> n;
     int dp[n + 1];
