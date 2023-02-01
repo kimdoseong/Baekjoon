@@ -23,3 +23,9 @@ add_executable(1149 1149.cpp)
 
 # 1932 정수 삼각형 / Silver 1
 add_executable(1932 1932.cpp)
+
+# 2579 계단 오르기 / Silver 3
+add_executable(2579 2579.cpp)
+
+# 1464 1로 만들기 / Silver 3
+add_executable(1464 1464.cpp)
