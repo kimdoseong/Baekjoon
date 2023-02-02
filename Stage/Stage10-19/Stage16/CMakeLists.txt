@@ -29,3 +29,6 @@ add_executable(2579 2579.cpp)
 
 # 1464 1로 만들기 / Silver 3
 add_executable(1464 1464.cpp)
+
+# 10844 쉬운 계단 수 / Silver 1
+add_executable(10844 10844.cpp)
