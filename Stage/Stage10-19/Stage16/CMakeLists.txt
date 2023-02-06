@@ -32,3 +32,9 @@ add_executable(1464 1464.cpp)
 
 # 10844 쉬운 계단 수 / Silver 1
 add_executable(10844 10844.cpp)
+
+# 2156 포도주 시식 / Silver 1
+add_executable(2156 2156.cpp)
+
+# 11053 가장 긴 증가하는 수열 / Silver 2
+add_executable(11053 11053.cpp)
