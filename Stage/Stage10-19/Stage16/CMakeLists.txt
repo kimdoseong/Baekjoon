@@ -38,3 +38,6 @@ add_executable(2156 2156.cpp)
 
 # 11053 가장 긴 증가하는 수열 / Silver 2
 add_executable(11053 11053.cpp)
+
+# 11054 가장 긴 바이토닉 부분 수열 / Gold 4
+add_executable(11054 11054.cpp)

@@ -8,6 +8,9 @@ set(CMAKE_CXX_STANDARD 17)
 # 2750 수 정렬하기 / Bronze 2
 add_executable(2750 2750.cpp)
 
+# 2587 대표값 / Bronze 2
+add_executable(2587 2587.cpp)
+
 # 2751 수 정렬하기 2 / Silver 5
 add_executable(2751 2751.cpp)
 
