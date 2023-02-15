@@ -41,3 +41,6 @@ add_executable(11053 11053.cpp)
 
 # 11054 가장 긴 바이토닉 부분 수열 / Gold 4
 add_executable(11054 11054.cpp)
+
+# 2565 전깃줄 / Gold 5
+add_executable(2565 2565.cpp)
