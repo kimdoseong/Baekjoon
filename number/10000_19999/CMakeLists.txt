@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.17)
+project(10000_19999)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_subdirectory(10000)
+add_subdirectory(11000)
+#add_subdirectory(12000)
+#add_subdirectory(13000)
+add_subdirectory(14000)
+add_subdirectory(15000)
+#add_subdirectory(16000)
+add_subdirectory(17000)
+add_subdirectory(18000)
+#add_subdirectory(19000)
