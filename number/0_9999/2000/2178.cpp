@@ -57,6 +57,8 @@ int BFS(int x, int y) {
 
         Adjacent(qInfo.x, qInfo.y, qInfo.move);
     }
+
+    return -1;
 }
 
 int main() {

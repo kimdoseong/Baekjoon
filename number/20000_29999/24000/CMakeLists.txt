@@ -7,3 +7,4 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(24060 24060.cpp)
 
 add_executable(24416 24416.cpp)
+add_executable(24479 24479.cpp)
