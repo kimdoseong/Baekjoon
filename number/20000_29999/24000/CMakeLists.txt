@@ -8,3 +8,4 @@ add_executable(24060 24060.cpp)
 
 add_executable(24416 24416.cpp)
 add_executable(24479 24479.cpp)
+add_executable(24480 24480.cpp)
