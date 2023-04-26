@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_subdirectory(10000)
 add_subdirectory(11000)
-#add_subdirectory(12000)
+add_subdirectory(12000)
 #add_subdirectory(13000)
 add_subdirectory(14000)
 add_subdirectory(15000)
