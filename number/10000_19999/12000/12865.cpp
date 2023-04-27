@@ -9,8 +9,9 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
-int main(){
+int main() {
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(nullptr);
 
@@ -18,20 +19,20 @@ int main(){
     std::cin >> n >> k;
 
     std::vector<std::pair<int, int>> arr;
-    for(int i = 0; i < n; i++){
+    for (int i = 1; i <= n; i++) {
         int w, v;
         std::cin >> w >> v;
         arr.emplace_back(w, v);
     }
 
-    int max{0};
-    std::vector<int> dp;
-    for(int i = 0; i < n; i++){
-        for(int j = i; j < n; j++){
-
-        }
+    std::vector<int> dp(k + 1, 0);
+    for (const auto &i: arr) {
+        for (int j = k; j >= 1; j--)
+            if (i.first <= j) {
+                dp[j] = std::max(dp[j], dp[j - i.first] + i.second);
+            }
     }
 
-    std::cout << max;
+    std::cout << dp[k];
     return 0;
 }
