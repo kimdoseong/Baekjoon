@@ -30,7 +30,9 @@ add_executable(2581 2581.cpp)
 add_executable(2587 2587.cpp)
 add_executable(2588 2588.cpp)
 
+add_executable(2606 2606.cpp)
 add_executable(2609 2609.cpp)
+add_executable(2667 2667.cpp)
 add_executable(2675 2675.cpp)
 
 add_executable(2739 2739.cpp)
