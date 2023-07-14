@@ -168,4 +168,8 @@ _deps
 ### .idea ###
 .idea
 
+### .vscode ###
+.vscode
+build/
+
 # End of https://www.toptal.com/developers/gitignore/api/clion,c++,cmake
