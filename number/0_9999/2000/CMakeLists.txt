@@ -10,6 +10,7 @@ add_executable(2108 2108.cpp)
 add_executable(2156 2156.cpp)
 add_executable(2178 2178.cpp)
 
+add_executable(2206 2206.cpp)
 add_executable(2231 2231.cpp)
 add_executable(2292 2292.cpp)
 

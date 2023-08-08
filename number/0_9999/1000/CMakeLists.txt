@@ -40,6 +40,7 @@ add_executable(1620 1620.cpp)
 add_executable(1676 1676.cpp)
 add_executable(1697 1697.cpp)
 
+add_executable(1707 1707.cpp)
 add_executable(1712 1712.cpp)
 add_executable(1764 1764.cpp)
 
