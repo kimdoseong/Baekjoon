@@ -4,6 +4,8 @@ project(10000)
 
 set(CMAKE_CXX_STANDARD 17)
 
+add_executable(10026 10026.cpp)
+
 add_executable(10171 10171.cpp)
 add_executable(10172 10172.cpp)
 
