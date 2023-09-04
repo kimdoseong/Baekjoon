@@ -18,6 +18,7 @@ add_executable(11651 11651.cpp)
 add_executable(11653 11653.cpp)
 add_executable(11654 11654.cpp)
 add_executable(11659 11659.cpp)
+add_executable(11660 11660.cpp)
 
 add_executable(11720 11720.cpp)
 add_executable(11729 11729.cpp)
