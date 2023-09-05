@@ -43,6 +43,7 @@ add_executable(1697 1697.cpp)
 
 add_executable(1707 1707.cpp)
 add_executable(1712 1712.cpp)
+add_executable(1753 1753.cpp)
 add_executable(1764 1764.cpp)
 
 add_executable(1912 1912.cpp)
