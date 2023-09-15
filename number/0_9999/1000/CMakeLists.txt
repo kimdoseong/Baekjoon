@@ -35,6 +35,7 @@ add_executable(1427 1427.cpp)
 add_executable(1436 1436.cpp)
 add_executable(1464 1464.cpp)
 
+add_executable(1504 1504.cpp)
 add_executable(1546 1546.cpp)
 
 add_executable(1620 1620.cpp)
