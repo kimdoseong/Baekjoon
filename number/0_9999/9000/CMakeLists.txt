@@ -10,6 +10,7 @@ add_executable(9184 9184.cpp)
 
 add_executable(9251 9251.cpp)
 
+add_executable(9370 9370.cpp)
 add_executable(9375 9375.cpp)
 
 add_executable(9461 9461.cpp)
